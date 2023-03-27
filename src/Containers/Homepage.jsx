@@ -1,19 +1,17 @@
 import React from 'react'
-import CustomGrid from './CustomGrid'
-import Cover from './Cover'
-import Navbar from './Navbar'
+import Cover from '../Components/Cover'
+import Navbar from '../Components/Navbar'
 import { Grid } from '@material-ui/core'
-import New from './Counters'
-import Footer from './Footer'
+import New from '../Components/Counters'
+import Footer from '../Components/Footer'
 
 function Homepage() {
   return (
     <div>
-        <Navbar />
-        <Cover />
-        <New />
-\     {/* <CustomGrid /> */}
-<Footer />
+      <Navbar />
+      <Cover />
+      <New />
+      <Footer />
     </div>
   )
 }
